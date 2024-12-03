@@ -1,0 +1,67 @@
+// imports
+@import "variables";
+@import "reset";
+@import "mixins";
+
+// global
+* {
+  font-family: $font-family-primary;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-size: $font-size-medium;
+  color: $gray-1000;
+  background-color: $gray-100;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: $gray-1000;
+  flex: 1 0 0;
+  font-size: $font-size-xmedium;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h2 {
+  color: $gray-1000;
+  flex: 1 0 0;
+  font-size: $font-size-medium;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h3 {
+  color: $gray-1000;
+  flex: 1 0 0;
+  font-size: $font-size-small;
+  font-style: normal;
+  font-weight: 500;
+}
+
+img {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+// set textarea and input styles
+textarea,
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+  color: $gray-700;
+  font-size: $font-size-small;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  align-self: stretch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

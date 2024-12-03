@@ -1,0 +1,50 @@
+.new_company {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0px 0px 19.4px 40091px rgba(197, 197, 197, 0.24);
+
+  .two_col {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+
+    div {
+      flex: 1 0 0;
+    }
+  }
+
+  .action_container {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+    div {
+      cursor: pointer;
+      padding: 0.25rem 1rem;
+      color: var(--EARTH, #201515be);
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .cancel {
+      border: 1px solid #ccc
+    }
+
+    .sub {
+      color: white;
+      background-color: #A594F9;
+    }
+  }
+}
