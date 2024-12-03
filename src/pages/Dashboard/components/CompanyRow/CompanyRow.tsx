@@ -19,7 +19,7 @@ const CompanyRow = ({
 }: any) => {
   const { addCommunication, communicationLoading, getPastNScheduledCommunication } = useCommunication()
 
-  const [conversationData, setConversationData] = useState({
+  const [conversationData, setConversationData] = useState<any>({
     lastFive: [],
     nextScheduled: {}
   })
