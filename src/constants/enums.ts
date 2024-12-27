@@ -3,7 +3,7 @@ export const SLICE_NAMES = {
   COMPANY: "company",
   COMMUNICATION: "communication",
 };
-
+//companies
 export const INTEGRATIONS_TYPE = {
   GOOGLE: "google",
   LINKEDIN: "linkedin",
